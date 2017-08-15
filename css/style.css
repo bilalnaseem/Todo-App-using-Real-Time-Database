@@ -1,0 +1,78 @@
+li{
+    list-style: none;
+    
+}
+span{
+    font-size: 25px;
+}
+
+span:hover{
+    background-color: silver;
+    
+}
+
+span{
+    font-size: 14px;
+}
+
+
+button{
+    /*border-radius: 10px;*/
+    background-color: red;
+    font-weight: bolder;
+    position: relative;
+top: -2px;  
+       left: 133px;
+  border-color: purple
+}
+input{
+    /*border-radius: 5px;*/
+    height: 15px;
+    background-color: gainsboro;
+    border-color: purple
+}
+
+#main{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   width: 350px;
+  }
+
+  button:active{
+      opacity: 0.5;
+  }
+
+  .removetodo{
+      position: relative;
+      left: 20px;
+  }
+  body{
+      background-color:silver;
+  }
+  input:focus{
+      background-color: purple;
+      color: white;
+      border-color: black;
+      opacity: 0.5em
+  }
+
+  sub{
+      font-size: 9px;
+      color: white;
+      font-weight: normal;
+    letter-spacing: 0.2em;
+      }
+  h2{
+      position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   width: 350px;
+
+     }
+
+     .headdiv{
+            background-color: red;
+            
+
+     }
